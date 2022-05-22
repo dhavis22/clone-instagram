@@ -1,0 +1,178 @@
+body{
+    background-color: #fafafa;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 750px;
+    margin: 0px auto;
+    padding-top: 50px;
+    padding-left: 50px;
+    display: flex;
+}
+
+.gambar{
+    width: 50%;
+}
+
+.img-ig{
+    width: 100%;
+}
+
+.card-wrapper{
+    width: 50%;
+}
+
+.card{
+    border-style: solid;
+    border-color: #f0f0f0;
+    border-width: 2px;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.logo{
+    width: 180px;
+}
+
+.form{
+    margin-top: 30px;
+}
+
+.input{
+    width: 300px;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 4px;
+    margin-top: 10px;
+}
+
+.btn{
+    background-color: #87CEFA;
+    border: 0px solid transparent;
+    margin-top: 15px;
+    width: 310px;
+    height: 30px;
+    border-radius: 4px;
+    color: white;
+}
+
+.card-wrapper .card .form span::before{
+    content: "";
+    width: 125px;
+    height: 2px;
+    background-color: #c7c7c7;
+    position: absolute;
+    left: 917px;
+    top: 348px;
+}
+
+.card-wrapper .card .form span::after{
+    content: "";
+    width: 125px;
+    height: 2px;
+    background-color: #c7c7c7;
+    position: absolute;
+    left: 733px;
+    top: 348px;
+}
+
+/* h5{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000000;
+    line-height: 0.1em;
+    margin-top: 10px 0 20px;
+} */
+
+/* h5 span{
+    background: #ffffff;
+    padding: 10px;
+} */
+
+.login-with{
+    color: #01017a;
+    text-decoration: none;
+}
+
+.link-forgot{
+    color: grey;
+    text-decoration: none;
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+.card1{
+    border-style: solid;
+    border-color: #f0f0f0;
+    border-width: 2px;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.have{
+    font-family: 'Segoe UI';
+}
+
+.link-signup{
+    color: #0095f6;
+    text-decoration: none;
+}
+
+.get{
+    text-align: center;
+    font-family: 'Segoe UI';
+}
+
+.appstore{
+    width: 125px;
+    padding-right: 20px;
+    margin-bottom: 2px;
+}
+
+.playstore{
+    width: 118px;
+}
+
+li a {
+    text-decoration: none;
+    color: #adadad;
+    font-size: 13px;
+}
+
+li a:hover {
+    color: #adadad;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    position: relative;
+    float: left;
+    display: block;
+}
+
+li {
+    float: left;
+    display: block;
+    position: relative;
+}
+
+li a {
+    text-align: center;
+    padding: 10px;
+}
+
+footer{
+    position: relative;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
